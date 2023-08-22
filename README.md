@@ -15,14 +15,14 @@
 - groupby후 agg할 때, 딕셔너리타입으로 칼럼별 다른 함수 지정 가능
 
 # 2 사이킷런으로 시작하는 머신러닝
-##### cv
+##### `cv`
 - GridSearchCV의 최적 성능을 나타내는 하이퍼파라미터로 학습해서 best_estimator_로 저장
-##### encoding
+##### `encoding`
 - sklearn 은 문자열 값을 입력 값으로 허용하지 않음
 - label encoding : 문자열들을 숫자로 바꾸는 인코딩. 숫자의 크기가 의미 없지만, 의미를 부여하는 모델에서는 조심. 트리모델은 상관없음
 - one-hot : 문자열들을 label encoding으로 숫자로 바꾼 후, 다시 one-hot\
 - get_dummies : 문자열들도 바로 변환 가능
-##### Feature Scaling
+##### `Feature Scaling`
 - feature scaling : 서로 다른 변수의 값 범위를 일정한 수준으로 맞추는 작업
 - Standardization(표준화) , Normalization(정규화), vector Normaliztion(벡터 정규화)
 
