@@ -16,7 +16,7 @@
 
 # 2 사이킷런으로 시작하는 머신러닝
 ##### `cv`
-- GridSearchCV의 최적 성능을 나타내는 하이퍼파라미터로 학습해서 best_estimator_로 저장
+- GridSearchCV의 최적 성능을 나타내는 하이퍼파라미터로 학습해서 best_estimator로 저장
 ##### `encoding`
 - sklearn 은 문자열 값을 입력 값으로 허용하지 않음
 - label encoding : 문자열들을 숫자로 바꾸는 인코딩. 숫자의 크기가 의미 없지만, 의미를 부여하는 모델에서는 조심. 트리모델은 상관없음
