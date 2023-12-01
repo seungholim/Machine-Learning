@@ -44,7 +44,7 @@
 - Bagging : RandomForest
 - Boosting : XGBoost, LightGBM 
 
-# 5 회귀
+### 5 회귀
 - 회귀모델은 항상 다중공선성에 유의
 
 ### 6 차원 축소
